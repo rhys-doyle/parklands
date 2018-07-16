@@ -9,3 +9,10 @@ $("#chevronIcon").hover(
     chevron.setAttribute("viewBox", "0 0 24 24");
   }
 );
+
+$(document).ready(() => {
+  $("#chevronA").click(() => {
+    $path = $("#topLower").offset().top;
+    $("body").animate({ scrollTop: $path }, 1000);
+  });
+});
