@@ -14,3 +14,10 @@ body {
   font-family: ITC Avant Garde LT;
   font-size: 16px;
 }
+
+.pageTop {
+  background-image: url("/resources/splash-feature.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
