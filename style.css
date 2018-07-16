@@ -195,3 +195,14 @@ body {
 #seeMore:hover {
   border-bottom: 1px solid #4fafa5;
 }
+
+.projectA,
+.newsA {
+  width: calc((100% - 32.9%) / 2);
+  text-decoration: none;
+}
+
+.playA {
+  width: 32.9%;
+  text-decoration: none;
+}
