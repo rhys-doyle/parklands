@@ -43,3 +43,20 @@ body {
 .navigationMenu li a:hover {
   border: solid 1px white;
 }
+
+.socialMenu {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: transparent;
+  max-width: 11.6%;
+  margin: -22px 0 0 87.5%;
+}
+
+.socialMenu li a svg {
+  stroke: white;
+  stroke-width: 1.5;
+}
+
+.socialMenu li a svg:hover {
+  stroke: #656565;
+}
