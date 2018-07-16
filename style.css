@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "ITC Avant Garde LT";
+  src: url("/fonts/ITC\ Avant\ Garde\ Gothic\ LT\ Bold.otf") format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Tex Gyre Adventor";
+  src: url("/fonts/texgyreadventor-regular.otf") format("opentype");
+  font-weight: 400;
+}
