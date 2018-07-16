@@ -60,3 +60,25 @@ body {
 .socialMenu li a svg:hover {
   stroke: #656565;
 }
+
+.parklandsContainer {
+  max-width: 522px;
+  margin: 12.8% auto 0 auto;
+}
+
+.groconLogo {
+  margin: 5px auto 0 auto;
+  max-width: 105px;
+}
+
+.chevronContainer {
+  padding: 8rem 0 3.2rem 0;
+  max-width: 50px;
+  max-height: 50px;
+  margin: 0 auto;
+}
+
+.chevronContainer svg {
+  stroke: white;
+  stroke-width: 2;
+}
