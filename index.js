@@ -11,7 +11,8 @@ $("#chevronIcon").hover(
 );
 
 $(document).ready(() => {
-  $("#chevronA").click(() => {
+  $("#chevronA").click(event => {
+    event.preventDefault();
     $path = $("#topLower").offset().top;
     $("body").animate({ scrollTop: $path }, 1000);
   });
