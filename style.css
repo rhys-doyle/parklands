@@ -82,3 +82,73 @@ body {
   stroke: white;
   stroke-width: 2;
 }
+
+.pageTopLower {
+  display: flex;
+}
+
+.project {
+  background-image: url("resources/background-overview.jpg");
+  background-size: cover;
+}
+
+.project:hover {
+  background-image: url("resources/background-overview-hover.jpg");
+  background-position: center center;
+}
+
+.news {
+  background-image: url("resources/background-news.jpg");
+  background-size: cover;
+}
+
+.news:hover {
+  background-image: url("resources/background-news-hover.jpg");
+  background-position: center center;
+}
+
+.photoDiv {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  padding: 0 0 5.5rem 0;
+}
+
+.photoDiv h2 {
+  padding: 5.5rem 0 0.7rem 0;
+  font-size: 4rem;
+  letter-spacing: -3.2px;
+}
+
+.photoDiv span {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+
+.play {
+  background-image: url("resources/background-video.jpg");
+  background-position: center center;
+  padding: 0 0 5.1rem 0;
+  position: relative;
+}
+
+.play h2 {
+  transition: all ease 500ms;
+  display: none;
+}
+
+.play span {
+  display: none;
+}
+
+.playIcon {
+  max-height: 130px;
+  text-align: center;
+  padding: 4rem 0 0 0;
+}
+
+.playIcon svg {
+  stroke-width: 0.7;
+}
