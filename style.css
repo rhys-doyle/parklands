@@ -465,3 +465,28 @@ input::placeholder {
 .bottomMenu li a:hover {
   color: #2caf9f;
 }
+
+.footerBox {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.footerImage {
+  text-align: center;
+  padding: 3.6rem 0 1.8rem 0;
+}
+
+.footerBox span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11.8px;
+  text-align: center;
+  display: block;
+  color: #686868;
+  font-weight: 300;
+  padding: 0 0 1.3rem 0;
+}
+
+.footerBox a {
+  color: white;
+  text-decoration: none;
+}
