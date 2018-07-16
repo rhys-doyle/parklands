@@ -152,3 +152,46 @@ body {
 .playIcon svg {
   stroke-width: 0.7;
 }
+
+.about {
+  font-family: ITC Avant Garde LT;
+  text-align: center;
+  margin-top: 7.8rem;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: -4px;
+}
+
+.aboutP {
+  font-family: "Open Sans", sans-serif;
+  max-width: 941px;
+  margin: 0 auto;
+  font-size: 18.4px;
+  text-align: center;
+  padding: 42.5px 0 1rem 0;
+  line-height: 29px;
+  font-weight: 300;
+}
+
+.seeMore {
+  margin: 0 auto;
+  display: block;
+  padding: 34px 0 1rem;
+  font-family: ITC Avant Garde LT;
+  text-align: center;
+  max-width: 109px;
+  text-decoration: none;
+}
+
+#seeMore {
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #4fafa5;
+  font-weight: 600;
+  padding: 0 0 3px 0;
+}
+
+#seeMore:hover {
+  border-bottom: 1px solid #4fafa5;
+}
