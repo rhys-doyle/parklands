@@ -247,6 +247,10 @@ body {
   max-height: 97px;
 }
 
+.paddedArea {
+  padding: 8.7rem 0 0 0;
+}
+
 .slick-slide {
   height: 58%;
 }
