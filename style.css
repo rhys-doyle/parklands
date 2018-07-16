@@ -490,3 +490,29 @@ input::placeholder {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 1300px) {
+  .navigationMenu li a {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .slider {
+    max-width: 1000px;
+  }
+  .slide {
+    max-width: 250px;
+  }
+
+  .slick-slide {
+    height: 34%;
+  }
+
+  .navigationMenu li a {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 1050px) {
+}
