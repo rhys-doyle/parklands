@@ -21,3 +21,25 @@ body {
   background-attachment: fixed;
   z-index: 0;
 }
+
+.navigationMenu {
+  display: flex;
+  margin: 0 auto;
+  max-width: 43.6%;
+  font-weight: 700;
+  background-color: transparent;
+  justify-content: space-evenly;
+  padding: 3.4rem 0 0 0;
+}
+
+.navigationMenu li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.navigationMenu li a:hover {
+  border: solid 1px white;
+}
