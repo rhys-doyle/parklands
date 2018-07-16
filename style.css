@@ -206,3 +206,62 @@ body {
   width: 32.9%;
   text-decoration: none;
 }
+
+.slider {
+  max-width: 1379px;
+  margin: 0 auto;
+  padding: 0 0 1rem 0;
+}
+
+.slide {
+  text-align: center;
+  width: 345px !important;
+  background: url("/resources/divider-feature.gif") no-repeat right 95px;
+}
+
+.lastSlide {
+  background: none;
+}
+
+.slide:focus {
+  outline: 0;
+}
+
+.slideData {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 20.7px 0 6px;
+  letter-spacing: -2.9px;
+}
+
+.slideInfo {
+  font-size: 22.5px;
+  font-weight: 700;
+  color: #4fafa5;
+  letter-spacing: -1px;
+}
+
+.imageSlide {
+  display: flex;
+  justify-content: space-around;
+  max-height: 97px;
+}
+
+.slick-slide {
+  height: 58%;
+}
+
+.slick-dots li button:before {
+  color: #4fafa5;
+  opacity: 1 !important;
+  font-size: 12px;
+}
+
+.slick-active button:before {
+  color: black !important;
+}
+
+#house {
+  margin: 0 0 0 20px;
+}
+
