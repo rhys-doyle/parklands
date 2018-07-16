@@ -265,3 +265,39 @@ body {
   margin: 0 0 0 20px;
 }
 
+.pageMiddle1 {
+  margin: 8.3rem 0 0 0;
+}
+.gallery {
+  background-image: url("/resources/background-gallery.jpg");
+  background-size: cover;
+}
+
+.galleryHeaders {
+  padding: 17.7px 0 19.7rem 15.3rem;
+  font-size: 3.8rem;
+}
+
+.galleryHeaders h2:nth-child(1) {
+  color: #4fafa5;
+  padding: 0 0 6px 0;
+}
+
+.galleryHeaders h2:nth-child(2) {
+  color: white;
+  padding: 0 0 48px 0;
+}
+
+.galleryHeaders a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  max-width: 133px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  padding: 0 0 6px 0;
+}
+
+.galleryHeaders a:hover {
+  border-bottom: 1px solid white;
+}
